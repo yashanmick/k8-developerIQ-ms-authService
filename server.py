@@ -65,4 +65,4 @@ def validate():
     return decoded_jwt, 200
 
 if __name__ == '__main__':
-    server.run(host='0.0.0.0', port=5000)
+    server.run(debug=True, host='0.0.0.0', port=5000)
